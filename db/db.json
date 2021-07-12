@@ -1,0 +1,289 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "John",
+      "gender": "M",
+      "occupation": "Engineer",
+      "avatar": "/img/john.jpg",
+      "catalogSKU": "123",
+      "goods": [
+        1,
+        2,
+        3
+      ],
+      "fakeField1": 1,
+      "fakeField2": 2,
+      "fakeField3": 3,
+      "fakeField4": 4,
+      "fakeField5": 5,
+      "fakeField6": 6
+    },
+    {
+      "id": 1,
+      "name": "Helen",
+      "gender": "F",
+      "occupation": "Designer",
+      "avatar": "/img/helen.jpg",
+      "catalogSKU": "124",
+      "goods": [
+        1,
+        2,
+        3
+      ],
+      "fakeField1": 1,
+      "fakeField2": 2,
+      "fakeField3": 3,
+      "fakeField4": 4,
+      "fakeField5": 5,
+      "fakeField6": 6
+    },
+    {
+      "id": 2,
+      "name": "Boris",
+      "gender": "M",
+      "occupation": "politician",
+      "avatar": "/img/boris.jpg",
+      "catalogSKU": "125",
+      "goods": [
+        1,
+        2,
+        3
+      ],
+      "fakeField1": 1,
+      "fakeField2": 2,
+      "fakeField3": 3,
+      "fakeField4": 4,
+      "fakeField5": 5,
+      "fakeField6": 6
+    },
+    {
+      "id": 3,
+      "name": "Michael",
+      "gender": "M",
+      "occupation": "singer",
+      "avatar": "/img/michael.jpg",
+      "catalogSKU": "126",
+      "goods": [
+        1,
+        2,
+        3
+      ],
+      "fakeField1": 1,
+      "fakeField2": 2,
+      "fakeField3": 3,
+      "fakeField4": 4,
+      "fakeField5": 5,
+      "fakeField6": 6
+    },
+    {
+      "id": 4,
+      "name": "Michael2",
+      "gender": "M",
+      "occupation": "athlete",
+      "avatar": "/img/michael2.jpg",
+      "catalogSKU": "127",
+      "goods": [
+        1,
+        2,
+        3
+      ],
+      "fakeField1": 1,
+      "fakeField2": 2,
+      "fakeField3": 3,
+      "fakeField4": 4,
+      "fakeField5": 5,
+      "fakeField6": 6
+    },
+    {
+      "id": 0,
+      "name": "John",
+      "gender": "M",
+      "occupation": "Engineer",
+      "avatar": "/img/john.jpg",
+      "catalogSKU": "123",
+      "goods": [
+        1,
+        2,
+        3
+      ],
+      "fakeField1": 1,
+      "fakeField2": 2,
+      "fakeField3": 3,
+      "fakeField4": 4,
+      "fakeField5": 5,
+      "fakeField6": 6
+    },
+    {
+      "id": 1,
+      "name": "Helen",
+      "gender": "F",
+      "occupation": "Designer",
+      "avatar": "/img/helen.jpg",
+      "catalogSKU": "124",
+      "goods": [
+        1,
+        2,
+        3
+      ],
+      "fakeField1": 1,
+      "fakeField2": 2,
+      "fakeField3": 3,
+      "fakeField4": 4,
+      "fakeField5": 5,
+      "fakeField6": 6
+    },
+    {
+      "id": 2,
+      "name": "Boris",
+      "gender": "M",
+      "occupation": "politician",
+      "avatar": "/img/boris.jpg",
+      "catalogSKU": "125",
+      "goods": [
+        1,
+        2,
+        3
+      ],
+      "fakeField1": 1,
+      "fakeField2": 2,
+      "fakeField3": 3,
+      "fakeField4": 4,
+      "fakeField5": 5,
+      "fakeField6": 6
+    },
+    {
+      "id": 3,
+      "name": "Michael",
+      "gender": "M",
+      "occupation": "singer",
+      "avatar": "/img/michael.jpg",
+      "catalogSKU": "126",
+      "goods": [
+        1,
+        2,
+        3
+      ],
+      "fakeField1": 1,
+      "fakeField2": 2,
+      "fakeField3": 3,
+      "fakeField4": 4,
+      "fakeField5": 5,
+      "fakeField6": 6
+    },
+    {
+      "id": 4,
+      "name": "Michael2",
+      "gender": "M",
+      "occupation": "athlete",
+      "avatar": "/img/michael2.jpg",
+      "catalogSKU": "127",
+      "goods": [
+        1,
+        2,
+        3
+      ],
+      "fakeField1": 1,
+      "fakeField2": 2,
+      "fakeField3": 3,
+      "fakeField4": 4,
+      "fakeField5": 5,
+      "fakeField6": 6
+    },
+    {
+      "id": 0,
+      "name": "John",
+      "gender": "M",
+      "occupation": "Engineer",
+      "avatar": "/img/john.jpg",
+      "catalogSKU": "123",
+      "goods": [
+        1,
+        2,
+        3
+      ],
+      "fakeField1": 1,
+      "fakeField2": 2,
+      "fakeField3": 3,
+      "fakeField4": 4,
+      "fakeField5": 5,
+      "fakeField6": 6
+    },
+    {
+      "id": 1,
+      "name": "Helen",
+      "gender": "F",
+      "occupation": "Designer",
+      "avatar": "/img/helen.jpg",
+      "catalogSKU": "124",
+      "goods": [
+        1,
+        2,
+        3
+      ],
+      "fakeField1": 1,
+      "fakeField2": 2,
+      "fakeField3": 3,
+      "fakeField4": 4,
+      "fakeField5": 5,
+      "fakeField6": 6
+    },
+    {
+      "id": 2,
+      "name": "Boris",
+      "gender": "M",
+      "occupation": "politician",
+      "avatar": "/img/boris.jpg",
+      "catalogSKU": "125",
+      "goods": [
+        1,
+        2,
+        3
+      ],
+      "fakeField1": 1,
+      "fakeField2": 2,
+      "fakeField3": 3,
+      "fakeField4": 4,
+      "fakeField5": 5,
+      "fakeField6": 6
+    },
+    {
+      "id": 3,
+      "name": "Michael",
+      "gender": "M",
+      "occupation": "singer",
+      "avatar": "/img/michael.jpg",
+      "catalogSKU": "126",
+      "goods": [
+        1,
+        2,
+        3
+      ],
+      "fakeField1": 1,
+      "fakeField2": 2,
+      "fakeField3": 3,
+      "fakeField4": 4,
+      "fakeField5": 5,
+      "fakeField6": 6
+    },
+    {
+      "id": 4,
+      "name": "Michael2",
+      "gender": "M",
+      "occupation": "athlete",
+      "avatar": "/img/michael2.jpg",
+      "catalogSKU": "127",
+      "goods": [
+        1,
+        2,
+        3
+      ],
+      "fakeField1": 1,
+      "fakeField2": 2,
+      "fakeField3": 3,
+      "fakeField4": 4,
+      "fakeField5": 5,
+      "fakeField6": 6
+    }
+  ]
+}

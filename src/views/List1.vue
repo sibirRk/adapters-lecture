@@ -25,7 +25,12 @@ export default {
   },
 
   async created() {
-    this.list = (await axios.get('http://localhost:3000/users')).data;
+    this.list = (await axios.get('http://localhost:3000/users', {
+      params: {
+        _page: 1,
+        _limit: 50,
+      }
+    })).data;
   },
 
   components: {

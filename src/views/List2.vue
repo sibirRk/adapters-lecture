@@ -10,7 +10,6 @@
 <script>
 import axios from 'axios';
 import ListTable from '../components/ListTable.vue';
-import APIAdapter from '/adapters/adapter';
 
 export default {
   name: 'ListTwo',
@@ -26,9 +25,6 @@ export default {
   },
 
   async created() {
-    this.list = await APIAdapter.getList({
-      limit: 6
-    });
   },
 
   components: {

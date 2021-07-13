@@ -10,14 +10,12 @@
 <script>
 import axios from 'axios';
 import ListTable from '../components/ListTable.vue';
-import APIAdapter from '/adapters/classAdapter';
 
 export default {
-  name: 'ListTwo',
+  name: 'ListThree',
 
   data() {
     return {
-      APIAdapter: new APIAdapter(),
       list: [],
       columns: [
         { id: 'id', label: 'ID' },
@@ -26,10 +24,7 @@ export default {
     }
   },
 
-  async created() {
-    this.list = await this.APIAdapter.getList({
-      limit: 6
-    });
+  created() {
   },
 
   components: {

@@ -9,6 +9,7 @@
 
 <script>
 import ListTable from '@/components/ListTable.vue';
+import adapter from '@/adapters/adapter1';
 
 export default {
   name: 'ListObject',
@@ -29,6 +30,7 @@ export default {
 
   methods: {
     async getList() {
+      this.list = await adapter.getList();
     }
   },
 

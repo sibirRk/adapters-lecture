@@ -8,11 +8,10 @@
 </template>
 
 <script>
-import axios from 'axios';
-import ListTable from '../components/ListTable.vue';
+import ListTable from '@/components/ListTable.vue';
 
 export default {
-  name: 'ListThree',
+  name: 'ListClass',
 
   data() {
     return {
@@ -25,6 +24,12 @@ export default {
   },
 
   created() {
+    this.getList();
+  },
+
+  methods: {
+    async getList() {
+    }
   },
 
   components: {

@@ -24,7 +24,7 @@ export default {
     }
   },
 
-  async created() {
+  created() {
     this.sendRequest();
   },
 
@@ -53,12 +53,12 @@ export default {
       };
 
       axios.post('/rest/', requestData)
-      .then(response => {
-        this.bonuses = response.data.data;
-        this.page = number;
-        this.paginator = response.data.paginator;
-        this.loading = false;
-      });
+        .then(response => {
+          this.bonuses = response.data.data;
+          this.page = number;
+          this.paginator = response.data.paginator;
+          this.loading = false;
+        });
     }
   },
 

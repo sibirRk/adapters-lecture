@@ -8,15 +8,14 @@
 </template>
 
 <script>
-import ListTable from '../components/ListTable.vue';
-import usersAdapter from '@/adapters/usersAdapter2';
+import axios from 'axios';
+import ListTable from '@/components/ListTable.vue';
 
 export default {
-  name: 'ListTwo',
+  name: 'ListOne',
 
   data() {
     return {
-      usersAdapter: new usersAdapter(),
       list: [],
       columns: [
         { id: 'id', label: 'ID' },
@@ -25,8 +24,19 @@ export default {
     }
   },
 
-  async created() {
-    this.list = await this.usersAdapter.getList();
+  created() {
+    this.getList();
+  },
+
+  methods: {
+    async getList() {
+      this.list = (await axios.get('http://localhost:3000/users', {
+        params: {
+          _page: 1,
+          _limit: 50,
+        }
+      })).data;
+    }
   },
 
   components: {
